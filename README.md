@@ -25,23 +25,18 @@
 ---
 Location| Comment |
 --|--|
- |com.project.gil.api | API 요청을 처리하는 컨트롤러|
- |com.project.gil.api.dto | API 입출력 I/0
- |com.project.gil.config | 설정파일(Redis)
- |com.project.gil.constant | 애플리케이션내 상수
- |com.project.gil.domain | JPA ENTITY 정의
- |com.project.gil. | JPA/Hibernate |
- |API 테스트 툴 | Postman |
- |ERD 작성 툴 | StarUML |
- | IDE |  IntelliJ |
+com.project.gil.api | API 요청을 처리하는 컨트롤러|
+com.project.gil.api.dto | API 입출력 I/0
+com.project.gil.config | 설정파일(Redis)
+com.project.gil.constant | 애플리케이션내 상수
+com.project.gil.service  | 비지니스 로직수행 |
+com.project.gil.repository  | DB 처리 |
+com.project.gil.scheduler  | 스케쥴러 |
+com.project.gil.domain | JPA ENTITY 정의
+com.project.gil.util | 유틸 클래스(카카오 연동로그인/ 메시지, 결제모듈) |
+com.project.gil.exception | 공통 예외클래스 정의 |
 
-    -  - 어플리케이션 및 embeded tomcat 실행
-    - com.kakaopay.membership.constant - 상수 및 에러코드 정의
-    - com.kakaopay.membership.controller - API 요청처리
-    - com.kakaopay.membership.domain - ENEITY 정의
-    - com.kakaopay.membership.service - 비지니스 로직수행
-    - com.kakaopay.membership.persistence - DB 처리
-    - com.kakaopay.membership.exception - 공통 예외클래스 정의
-    - com.kakaopay.membership.util - 공용유틸
+### DB 테이블 설계
+
 
  
